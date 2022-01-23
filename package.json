@@ -1,0 +1,25 @@
+{
+    "name": "pixijs_okey_game",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:zfiratselim/pixijs-okeygame.git",
+    "author": "zirekoglufs@gmail.com",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel index.html",
+        "watch": "parcel watch index.html  ",
+        "server": "live-server dist",
+        "build": "parcel build --no-source-maps index.html ",
+        "nuke": "rimraf .cache dist"
+    },
+    "dependencies": {
+        "pixi.js": "^6.0.4"
+    },
+    "devDependencies": {
+        "@types/pixi.js": "^5.0.0",
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-json-url-loader": "^0.1.2",
+        "parcel-plugin-static-files-copy": "^2.4.3",
+        "typescript": "^4.3.5"
+    }
+}
