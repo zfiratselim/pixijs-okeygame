@@ -1,5 +1,8 @@
 # pixijs-okeygame
 
+
+![SCreenshot](https://github.com/zfiratselim/pixijs-okeygame/blob/master/ai.png)
+
 DESKTOP VIEW
 
 
